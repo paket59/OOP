@@ -8,5 +8,8 @@ class User:
 
 
 artur = User('Артур', 24)
-print(artur.name)
-print(artur.age)
+# artur = User()
+artur.food = 'chicken'
+# print(artur.name)
+# print(artur.age)
+print(artur.food)
